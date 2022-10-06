@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+}
+
+ .container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 10px;
+} 
+
+#targetas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+
+
+
+#delete{
+    border-radius: 12px;
+    background-color: red;
+    overflow: unset;
+    padding: 5px;
+}
+
+#targeta0{
+    border: solid 2px;
+    background-color: black;
+}
+
+#boton1{
+    background-color: aquamarine;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.targeta0{
+    background-color: aquamarine;
+    margin-top: 30px;
+    border: none;
+    width: 300px;
+    height: 100px;
+    
+}
+
